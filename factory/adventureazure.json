@@ -1,0 +1,9 @@
+{
+	"name": "adventureazure",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f59f9c62-1308-46a5-b337-5422f95e9b08",
+		"tenantId": "f711c45c-2322-46ca-9ac6-0ae7085ed9ea"
+	}
+}
