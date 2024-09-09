@@ -50,6 +50,22 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 1
 						}
+					},
+					{
+						"name": "Wait job final",
+						"type": "Wait",
+						"dependsOn": [
+							{
+								"activity": "Wait job",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 1
+						}
 					}
 				],
 				"policy": {
